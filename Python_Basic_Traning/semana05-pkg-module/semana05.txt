@@ -1,0 +1,16 @@
+Semana 5	
+o  Modulos, paquetes y namespace
+o Funciones definidas por el usuario	
+
+TEORIA
+o  Explica como hacer modulos, paquetes y namespaces
+o Da Ejemplos de funciones definidas por el usuario
+o Diagrama funciones
+
+PRACTICA
+o  Desarrolla programas aplicando modulos, paquetes y funciones definidas por el usuario	
+
+
+
+o  Demuestra interés en el tema tratado
+o Desarrolla sus aplicaciones en el tiempo previsto con responsabilidad y participación

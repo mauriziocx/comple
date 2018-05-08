@@ -1,0 +1,13 @@
+Semana 7	
+
+o  Encapsulamientos y Polimorfismo	
+
+TEORIA
+o  Explica que implica encapsular y que implica el polimorfismo
+
+PRACTICA
+o  Desarrolla problemas orientando su programación a objetos	
+
+
+Demuestra interés en el tema tratado Desarrolla sus aplicaciones en el tiempo previsto con responsabilidad y participación
+

@@ -1,0 +1,10 @@
+﻿  Source.cpp
+c:\users\mauricio\desktop\complejidad\parcialpasado\parcialpasado\source.cpp(11): warning C4018: '<': signed/unsigned mismatch
+c:\users\mauricio\desktop\complejidad\parcialpasado\parcialpasado\source.cpp(14): warning C4018: '<': signed/unsigned mismatch
+c:\users\mauricio\desktop\complejidad\parcialpasado\parcialpasado\source.cpp(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\mauricio\desktop\complejidad\parcialpasado\parcialpasado\source.cpp(25): warning C4018: '<': signed/unsigned mismatch
+c:\users\mauricio\desktop\complejidad\parcialpasado\parcialpasado\source.cpp(73): warning C4018: '<': signed/unsigned mismatch
+c:\users\mauricio\desktop\complejidad\parcialpasado\parcialpasado\source.cpp(78): warning C4018: '<': signed/unsigned mismatch
+c:\users\mauricio\desktop\complejidad\parcialpasado\parcialpasado\source.cpp(87): warning C4018: '<': signed/unsigned mismatch
+c:\users\mauricio\desktop\complejidad\parcialpasado\parcialpasado\source.cpp(89): warning C4018: '<': signed/unsigned mismatch
+  ParcialPasado.vcxproj -> C:\Users\MAURICIO\Desktop\Complejidad\ParcialPasado\Debug\ParcialPasado.exe

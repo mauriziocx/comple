@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\mauricio\desktop\complejidad\fuerzabruta\fuerzabruta\source.cpp(38): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  FuerzaBruta.vcxproj -> C:\Users\MAURICIO\Desktop\Complejidad\FuerzaBruta\Debug\FuerzaBruta.exe

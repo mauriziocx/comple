@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\alumnos\desktop\comple\divideyconq2(arreglado)\divideyconq2(arreglado)\prefix.h(30): warning C4715: 'Prefix::findCommonPrefix': not all control paths return a value
+  Divideyconq2(arreglado).vcxproj -> C:\Users\Alumnos\Desktop\comple\Divideyconq2(arreglado)\Debug\Divideyconq2(arreglado).exe
+  Divideyconq2(arreglado).vcxproj -> C:\Users\Alumnos\Desktop\comple\Divideyconq2(arreglado)\Debug\Divideyconq2(arreglado).pdb (Partial PDB)
