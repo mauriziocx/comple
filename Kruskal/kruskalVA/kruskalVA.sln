@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "kruskalVA", "kruskalVA\kruskalVA.vcxproj", "{0C28A211-0E2F-452E-BA63-75F45D7BDCEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C28A211-0E2F-452E-BA63-75F45D7BDCEF}.Debug|x64.ActiveCfg = Debug|x64
+		{0C28A211-0E2F-452E-BA63-75F45D7BDCEF}.Debug|x64.Build.0 = Debug|x64
+		{0C28A211-0E2F-452E-BA63-75F45D7BDCEF}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C28A211-0E2F-452E-BA63-75F45D7BDCEF}.Debug|x86.Build.0 = Debug|Win32
+		{0C28A211-0E2F-452E-BA63-75F45D7BDCEF}.Release|x64.ActiveCfg = Release|x64
+		{0C28A211-0E2F-452E-BA63-75F45D7BDCEF}.Release|x64.Build.0 = Release|x64
+		{0C28A211-0E2F-452E-BA63-75F45D7BDCEF}.Release|x86.ActiveCfg = Release|Win32
+		{0C28A211-0E2F-452E-BA63-75F45D7BDCEF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61D98036-B3A3-48D6-B9E5-F87DBC40CBFA}
+	EndGlobalSection
+EndGlobal

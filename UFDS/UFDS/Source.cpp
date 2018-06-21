@@ -8,6 +8,10 @@ int FindSet(int p[],int i) {
 	else 
 		return FindSet(p,p[i]);
 }
+void pathcompression(int p[],int i) {
+	int x = FindSet(p,i);
+	p[i] = x;
+}
 bool IsSameSet(int p[], int i,int j) {
 	int x = FindSet( p, i);
 	int y = FindSet( p, j);
@@ -15,22 +19,32 @@ bool IsSameSet(int p[], int i,int j) {
 }
 void UnionSet(int p[], int i, int j, int rank[]) {
 	int x = FindSet(p, i);
+	pathcompression(p,i);
 	int y = FindSet(p, j);
+	pathcompression(p, j);
+
 	if (x != y)
 	{
-		if (rank[x] > rank[y])
+		if (rank[x] > rank[y]) {
 			p[y] = x;
-		else p[x] = y;
+			
+		}
+		else {
+			p[x] = y;
+			if (rank[x] == rank[y])
+				rank[y]++;
+
+		}
 
 	}
 }
 
 	int main() {
 
-		bool bandera = false;
 		bool flag = false;
 		int tecla;
 		while (!flag) {
+			bool bandera = false;
 			int n;
 			cout << "Ingrese numero de vertices:";
 			cin >> n;
@@ -44,7 +58,7 @@ void UnionSet(int p[], int i, int j, int rank[]) {
 			rank = new int[n];
 			for (int i = 0; i < n; i++)
 			{
-				rank[0] = 0;
+				rank[i] = 0;
 			}
 			while (!bandera)
 			{
@@ -54,6 +68,7 @@ void UnionSet(int p[], int i, int j, int rank[]) {
 				cout << "\t2 .- Is same set" << endl;
 				cout << "\t3 .- Union set" << endl;
 				cout << "\t4 .- Salir" << endl << endl;
+
 				cout << "Elije una opcion: ";
 
 				cin >> tecla;
@@ -92,6 +107,7 @@ void UnionSet(int p[], int i, int j, int rank[]) {
 					}
 					break;
 
+			
 
 				case 4:
 					bandera = true;
