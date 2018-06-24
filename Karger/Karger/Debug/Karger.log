@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\mauricio\desktop\comple\karger\karger\source.cpp(97): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Karger.vcxproj -> C:\Users\MAURICIO\Desktop\comple\Karger\Debug\Karger.exe

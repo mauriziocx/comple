@@ -1,0 +1,6 @@
+﻿  Source.cpp
+c:\users\mauricio\desktop\comple\bellmanford\bellmanford\source.cpp(16): warning C4005: 'INFINITY': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\corecrt_math.h(89): note: see previous definition of 'INFINITY'
+c:\users\mauricio\desktop\comple\bellmanford\bellmanford\source.cpp(82): warning C4018: '<': signed/unsigned mismatch
+c:\users\mauricio\desktop\comple\bellmanford\bellmanford\source.cpp(50): warning C4101: 'w': unreferenced local variable
+  BellmanFord.vcxproj -> C:\Users\MAURICIO\Desktop\comple\BellmanFord\Debug\BellmanFord.exe
