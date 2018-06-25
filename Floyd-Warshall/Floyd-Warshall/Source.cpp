@@ -51,21 +51,21 @@ const vector<int> explode(const string& s, const char& c)
 	return v;
 }
 int main() {
-	string k;
+	int k;
 	int graph[V][V];
-	freopen("int.txt", "rt", stdin);
+	freopen("in.txt", "rt", stdin);
 	freopen("out.txt", "wt", stdout);
 
 	for (int i = 0; i < V; i++) {
 		for (int j = 0; j < V; j++) {
 			scanf("%d", &k);
-			if (k == "INF"){
+			if (k == 99){
 			
 			  graph[i][j] = INF;
 			}
 			else
 			{
-			  graph[i][j] = stoi(k);
+			  graph[i][j] = k;
 			}
 			 
 		}
@@ -76,6 +76,5 @@ int main() {
 						{INF,INF,INF,0}
 						};*/
 	floydWarshell(graph);
-	_getch();
 	return 0;
 }

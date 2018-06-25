@@ -10,7 +10,7 @@ typedef struct {
 
 const int NODES = 5;
 int EDGES;
-Edge *edges;
+Edge edges[32];
 int d[32];
 #define INFINITY INT_MAX
 
@@ -45,7 +45,7 @@ void BellmanFord(int src) {
 	int main() {
 		
 		int w, k = 0;
-		freopen("int.txt","rt",stdin);
+		freopen("in.txt","rt",stdin);
 		freopen("out.txt", "wt", stdout);
 		
 		for (int i = 0; i < NODES; i++) {
@@ -81,7 +81,7 @@ void BellmanFord(int src) {
 		}*/
 
 		EDGES = k;
-		edges = new Edge[EDGES];
+		
 
 		int source = 0;
 		BellmanFord(source);
@@ -92,6 +92,5 @@ void BellmanFord(int src) {
 			printf("%d\t\t\t%d\n",i,d[i]);
 		}
 		
-		_getch();		
 		return 0;
 	}
