@@ -1,7 +1,7 @@
 ﻿  Source.cpp
 Source.cpp(11): warning C4018: '<': signed/unsigned mismatch
-Source.cpp(54): warning C4018: '<': signed/unsigned mismatch
-Source.cpp(98): warning C4018: '<': signed/unsigned mismatch
-Source.cpp(111): warning C4018: '<': signed/unsigned mismatch
-Source.cpp(130): warning C4018: '<': signed/unsigned mismatch
+Source.cpp(47): warning C4018: '<': signed/unsigned mismatch
+Source.cpp(91): warning C4018: '<': signed/unsigned mismatch
+Source.cpp(104): warning C4018: '<': signed/unsigned mismatch
+Source.cpp(114): warning C4018: '<': signed/unsigned mismatch
   BinaryHeap.vcxproj -> C:\Users\MAURICIO\Desktop\comple\BinaryHeap\Debug\BinaryHeap.exe

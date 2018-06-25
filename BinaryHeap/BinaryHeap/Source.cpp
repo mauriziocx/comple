@@ -104,26 +104,46 @@ int main()
 	for (int i = 0; i < A.size(); i++)
 		cout << A[i] << " p ->" << p[i] << endl;
 	//--- insertar
-	/*
+	while (true) {
     int n;
 	cout << "insertar:";
 	cin >> n;
 	insertar(n,A, A.size(),p);
 	cout << A.size()<< endl;
 	
-	for (int i = 0; i <5; i++)
-		cout << A[i] << " p ->" << p[i] << endl;*/
+	for (int i = 0; i <A.size(); i++)
+		cout << A[i] << " p ->" << p[i] << endl;}
 	// ---- extractmax
 	/*
 	extractMax(A,p);
 	for (int i = 0; i < A.size(); i++)
 		cout << A[i] << " p ->" << p[i] << endl;*/
 	//---- delete key
+	/*
 	int k;
 	cout << "borrar:";
 	cin >> k;
 	DeleteKey(k,A,p);
 	for (int i = 0; i < A.size(); i++)
-		cout << A[i] << " p ->" << p[i] << endl;
+		cout << A[i] << " p ->" << p[i] << endl;*/
 	_getch();
-}
+}/*
+def HeapSort(self) :
+	for i in range(1, len(self.Heap)) :
+		LC = MinHeap.LeftChild(i)
+		RC = MinHeap.RighChild(i)
+		parent = MinHeap.Parent(i)
+
+		if LC < len(self.Heap) and self.Heap[LC] > self.Heap[i] :
+			self.Swap(LC, i)
+
+			if RC < len(self.Heap) and self.Heap[RC] > self.Heap[i] :
+				self.Swap(RC, i)
+
+				if i > 1 and self.Heap[parent] < self.Heap[i]:
+self.Swap(parent, i)
+Chat Conversation End
+Type a message...
+*/
+
+

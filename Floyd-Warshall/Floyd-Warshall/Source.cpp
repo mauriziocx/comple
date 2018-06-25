@@ -51,43 +51,30 @@ const vector<int> explode(const string& s, const char& c)
 	return v;
 }
 int main() {
-	ifstream read;
-	ofstream write;
-	string line;
-	int c;
-	read.open("input.txt");
-	getline(read, line);
-	c = stoi(line);
-	
-	while (!c==0)
-	{
-		int n, m;
-		getline(read, line);
-		n = stoi(line);
-		getline(read, line);
-		m = stoi(line);
-		int **graph;
-		graph = new int*[n];
-		while (!m == 0)
-		{			
-			getline(read, line);
-			vector<int> ex{explode(line,' ')};
-			ex[0][];
-			m--;
-		}
-		
-		getline(read, line);
-		c--;
-	}
-	read.close();
-	write.open("output.txt");
+	string k;
+	int graph[V][V];
+	freopen("int.txt", "rt", stdin);
+	freopen("out.txt", "wt", stdout);
 
-	write.close();
-	int graph[V][V] = { {0,5,INF,10} ,
-	{INF,0,3,INF},
-	{INF,INF,0,1},
-	{INF,INF,INF,0}
-	};
+	for (int i = 0; i < V; i++) {
+		for (int j = 0; j < V; j++) {
+			scanf("%d", &k);
+			if (k == "INF"){
+			
+			  graph[i][j] = INF;
+			}
+			else
+			{
+			  graph[i][j] = stoi(k);
+			}
+			 
+		}
+	}
+	/*int graph[V][V] = { {0,5,INF,10} ,
+						{INF,0,3,INF},
+						{INF,INF,0,1},
+						{INF,INF,INF,0}
+						};*/
 	floydWarshell(graph);
 	_getch();
 	return 0;
