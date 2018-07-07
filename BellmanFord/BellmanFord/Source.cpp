@@ -12,6 +12,8 @@ const int NODES = 5;
 int EDGES;
 Edge edges[32];
 int d[32];
+vector<int> Objetivos;
+int num;
 #define INFINITY INT_MAX
 
 void showVectors(int *vec, int num) {
@@ -41,6 +43,8 @@ void BellmanFord(int src) {
 		}
 
 	}
+
+
 }
 	int main() {
 		
@@ -85,7 +89,6 @@ void BellmanFord(int src) {
 
 		int source = 0;
 		BellmanFord(source);
-
 		printf("\nNode\tDistancia\n");
 		printf("----\t------\n");
 		for (int i = 0;i<NODES;i++) {

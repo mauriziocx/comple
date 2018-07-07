@@ -1,0 +1,60 @@
+#ifndef _RASTREADOR_
+#define _RASTREADOR_
+
+#include<climits>
+#include<vector>
+#include "Misil.h"
+using namespace std;
+
+#define INFINITY INT_MAX
+
+class Rastreador : public Misil
+{
+public:
+	Rastreador();
+	~Rastreador();
+	 vector<int>BellmanFord(int src,int dest);
+
+private:
+	typedef struct {
+		int u, v, w;
+	} Edge;
+
+
+	int EDGES;
+	Edge *edges;	
+	int *d;
+	
+
+};
+
+Rastreador::Rastreador()
+{
+	edges = new Edge[EDGES];
+	d = new int[n];
+}
+
+Rastreador::~Rastreador()
+{
+}
+vector<int> Rastreador::BellmanFord(int src,int dest) {
+	for (int i = 0; i < n; i++) {
+		d[i] = INFINITY;
+	}
+	d[src] = 0;
+	vector<int>nav;
+	for (int i = 0; i < n; i++) {
+		for (int j = 0; j < EDGES; j++) {
+			if (d[edges[j].u] + edges[j].w < d[edges[j].v]) {
+				if (edges[j].v == dest) 
+				    nav.push_back(edges[j].u);
+				d[edges[j].v] = d[edges[j].u] + edges[j].w;
+			}
+			
+		}
+	}
+	return nav;
+	
+}
+
+#endif // !_RASTREADOR_
